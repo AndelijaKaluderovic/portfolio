@@ -2,7 +2,7 @@ import './work.css'
 
 const Work = () => {
     return (
-        <div className="work">
+        <div className="work" id="work">
            Projects... 
         </div>
     )
