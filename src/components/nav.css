@@ -1,24 +1,28 @@
 .nav{
     background-color: #141414;
     width: 100%;
-    height: 70px;
+    height: 50px;
     position: fixed;
     top: 0;
 }
-.wrapper{
-    padding: 10px;
+.nav .wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.nav__logo{
+.nav .logo{
+    padding: 10px;
     color: #FBA92C;
 }
-.right a{
+.nav .right a{
+    padding: 10px;
     text-decoration: none;
     color: white;
 }
-.right li{
+.nav .right ul{
+    text-align: right;
+}
+.nav .right li{
     list-style-type: none;
     padding: 0;
     display: inline-block;

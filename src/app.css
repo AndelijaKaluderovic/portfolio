@@ -2,7 +2,7 @@
     height: 100vh;
 }
 
-.sections{
+.app .sections{
     width: 100%;
     height: calc(100vh - 50px);
     background-color: #FBA92C;
@@ -12,10 +12,10 @@
     scroll-snap-type: y mandatory;
     scrollbar-width: none;
 }
-.sections::-webkit-scrollbar{
+.app .sections::-webkit-scrollbar{
     display: none;
 }
-.sections > * {
+.app .sections > * {
     width: 100vw;
     height: calc(100vh - 50px);
     scroll-snap-align: start;

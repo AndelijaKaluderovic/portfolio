@@ -5,7 +5,7 @@ const Nav = () => {
         <div className="nav">
             <div className="wrapper">
                 <div className="left">
-                    <h1 className="nav__logo">AK</h1>
+                    <h1 className="logo">AK</h1>
                 </div>
                 <div className="right">
                     <nav className="navigation">

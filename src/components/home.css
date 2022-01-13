@@ -1,3 +1,60 @@
 .home{
     background-color: #FFFFFF;
+    display: flex;
+}
+.home .left{
+    flex: 0.5;
+    overflow: hidden;
+}
+.home .right{
+    flex: 0.5;
+}
+
+.home .profileImage{
+    width: 600px;
+    height: 600px;
+    background-color: #FBA92C;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    float: right;
+
+}
+.home .profileImage img{
+    height: 80%;
+}
+.home .wrapper{
+   height: 100%;
+   width: 100%;
+   padding-left: 50px; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.home .wrapper h2{
+    font-size: 35px;
+}
+.home .wrapper h1{
+    font-size: 60px;
+    margin: 10px 0;
+    color: #FBA92C;
+}
+.home .wrapper h3{
+    font-size: 30px;
+}
+.home a{
+    position: absolute;
+    bottom: 10px;
+    left: 65%;
+}
+.home .right img{
+    width: 40px;
+    animation: Blink 2s infinite;
+}
+@keyframes Blink {
+    100%{
+        opacity: 0.1;
+    }
 }
