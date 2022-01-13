@@ -11,9 +11,11 @@
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scrollbar-width: none;
+    /* firefox */
 }
 .app .sections::-webkit-scrollbar{
     display: none;
+    /* chrome */
 }
 .app .sections > * {
     width: 100vw;

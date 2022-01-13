@@ -1,13 +1,20 @@
 import './contact.css';
-import { useState } from "react";
+import 'emailjs-com';
 
 const Contact = () => {
-  const [message, setMessage] = useState(false);
 
-  const handleSubmit = (e) => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    setMessage(true);
-  }
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+};
   return (
     <div className="contact" id="contact">
       <div className="left">
@@ -15,11 +22,10 @@ const Contact = () => {
       </div>
       <div className="right">
         <h2>Contact</h2>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={sendEmail}>
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
           <button type="submit">Send</button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
         </form>
       </div>
     </div>
