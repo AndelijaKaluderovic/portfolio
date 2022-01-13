@@ -6,6 +6,9 @@ const Home = () => {
     const textRef = useRef()
     useEffect(() => {
       init(textRef.current, {
+          typeSpeed: 80,
+          backDelay: 1630,
+          backSpeed: 35,
           showCursor: false,
           strings: ["JavaScript Developer", "Pianist", "Dog Owner"]
       })
@@ -19,7 +22,7 @@ const Home = () => {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>Hi there, I'm</h2>
+                    <h2>Hi, I'm</h2>
                     <h1>Angie</h1>
                     <h3>Fullstack  <span ref={textRef}></span></h3>
                 </div>

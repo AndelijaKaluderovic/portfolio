@@ -1,11 +1,29 @@
-import './contact.css'
+import './contact.css';
+import { useState } from "react";
 
 const Contact = () => {
-    return (
-        <div className="contact" id="contact">
-            Phone, email, LinkedIn, Github...
-        </div>
-    )
-}
+  const [message, setMessage] = useState(false);
 
-export default Contact
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setMessage(true);
+  }
+  return (
+    <div className="contact" id="contact">
+      <div className="left">
+        <img src="assets/contact.png" alt="" />
+      </div>
+      <div className="right">
+        <h2>Contact</h2>
+        <form onSubmit={handleSubmit}>
+          <input type="text" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Send</button>
+          {message && <span>Thanks, I'll reply ASAP :)</span>}
+        </form>
+      </div>
+    </div>
+  );
+};
+
+  export default Contact
