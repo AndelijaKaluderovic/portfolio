@@ -1,0 +1,13 @@
+.resume{
+    background-color: #141414;
+}
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-icon{
+    flex: 1 1 150px;
+    width: 130px;
+    height: 130px;
+    border-radius: 30px;
+}

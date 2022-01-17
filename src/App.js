@@ -3,7 +3,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Home from './components/Home'
 import Nav from './components/Nav'
-import Resume from './components/Resume'
+import Skills from './components/Skills'
 import Work from './components/Work'
 import './app.css'
 
@@ -15,7 +15,7 @@ const App = () => {
         <Home />
         <About />
         <Work />
-        <Resume />
+        <Skills />
         <Contact />
       </div>
     </div>
