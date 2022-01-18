@@ -3,7 +3,18 @@ import './about.css'
 const About = () => {
     return (
         <div className="about" id="about">
-            About me...
+            <h2>About me...</h2>
+            <img src="assets/about.svg" alt="about" className="about-photo" />
+            <div className="about-wrapper">
+                <div className="about-left">
+                    <h3>Dev Journey</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum vulputate porta. Suspendisse ac congue nunc. Quisque tincidunt urna quis sagittis venenatis. Phasellus eros diam, tristique sit amet aliquet a, ullamcorper eget velit. Sed suscipit consequat lectus, aliquet viverra dolor mollis quis.</p>
+                </div>
+                <div className="about-right">
+                    <h3>Hobies</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum vulputate porta. Suspendisse ac congue nunc. Quisque tincidunt urna quis sagittis venenatis. Phasellus eros diam, tristique sit amet aliquet a, ullamcorper eget velit. Sed suscipit consequat lectus, aliquet viverra dolor mollis quis.</p>
+                </div>
+            </div>
         </div>
     )
 }

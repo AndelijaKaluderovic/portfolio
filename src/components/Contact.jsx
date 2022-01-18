@@ -36,7 +36,7 @@ const Contact = () => {
                   </li>
               </ul>
           </div>
-        <img src="assets/contact.png" alt="" />
+        <img src="assets/contact.svg" alt="" />
       </div>
       <div className="right">
         <h2>Contact</h2>
