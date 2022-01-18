@@ -16,6 +16,26 @@ const Contact = () => {
   return (
     <div className="contact" id="contact">
       <div className="left">
+          <div className="contact-info">
+              <ul className="contact-list">
+                  <li>
+                      <img src="assets/contact/phone.png" alt="phone" className="contact-icon"/>
+                      <p> +46722705908</p>
+                  </li>
+                  <li>
+                      <img src="assets/contact/email.png" alt="email" className="contact-icon"/>
+                      <p> andeka011@gmail.com </p>
+                  </li>
+                  <li>
+                      <img src="assets/contact/linkedin.png" alt="linkedin" className="contact-icon"/>
+                      <a href="https://www.linkedin.com/in/andjelija-kaludjerovic"> LinkedIn</a>
+                  </li>
+                  <li>
+                      <img src="assets/contact/github.png" alt="github" className="contact-icon"/>
+                      <a href="https://github.com/AndelijaKaluderovic"> Github</a>
+                  </li>
+              </ul>
+          </div>
         <img src="assets/contact.png" alt="" />
       </div>
       <div className="right">

@@ -58,3 +58,10 @@
 .contact span{
     color: #FBA92C;
 }
+.contact-list li > *{
+    display: inline-block;
+}
+.contact-icon{
+    width: 30px;
+    height: 30px;
+}

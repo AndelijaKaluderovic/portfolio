@@ -9,21 +9,21 @@ const Skills = () => {
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/html.png"
+                            src="assets/skills/html.png"
                             alt="HTML"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/css.png"
+                            src="assets/skills/css.png"
                             alt="CSS"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/js.png"
+                            src="assets/skills/js.png"
                             alt="JavaScript"
                         />
 
@@ -31,77 +31,77 @@ const Skills = () => {
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/react.png"
+                            src="assets/skills/react.png"
                             alt="React"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/redux.png"
+                            src="assets/skills/redux.png"
                             alt="Redux"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/nodejs.png"
+                            src="assets/skills/nodejs.png"
                             alt="NodeJS"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/express.png"
+                            src="assets/skills/express.png"
                             alt="Express"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/figma.png"
+                            src="assets/skills/figma.png"
                             alt="Figma"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/postgresql.png"
+                            src="assets/skills/postgresql.png"
                             alt="PostgreSQL"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/mongodb.png"
+                            src="assets/skills/mongodb.png"
                             alt="MongoDB"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/docker.png"
+                            src="assets/skills/docker.png"
                             alt="Docker"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/github.png"
+                            src="assets/skills/github.png"
                             alt="Github"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/tdd.png"
+                            src="assets/skills/tdd.png"
                             alt="TDD"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/aws.png"
+                            src="assets/skills/aws.png"
                             alt="AWS"
                         />
                     </li>
