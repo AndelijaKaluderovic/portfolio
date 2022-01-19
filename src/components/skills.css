@@ -1,6 +1,6 @@
 .skills{
     background-color: #141414;
-    padding-top: 100px;
+    padding-top: 50px;
     color: #FBA92C;
 }
 .skills .heading{
@@ -10,12 +10,16 @@
 }
 .skills-list{
     display: grid;
-    justify-content: center;
-    align-items: center;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-}
-.skills-icon{
+    padding-top: 50px;
+  }
+  .skills-list > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills-icon{
   width: 50%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
