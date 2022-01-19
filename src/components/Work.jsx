@@ -3,7 +3,7 @@ import './work.css'
 const Work = () => {
     return (
         <div className="work" id="work">
-            <h2>Some of my projects</h2>
+            <h2 className="heading">Some of my projects</h2>
             <div className="wrapper">
                 <div className="project">
                     <a href="https://salt-platform.vercel.app/index" className="project-link">

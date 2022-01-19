@@ -4,7 +4,7 @@ const Skills = () => {
     return (
         <div className="skills" id="skills">
             <div className="skills-wrapper">
-                <h2> Key Skills </h2>
+                <h2 className="heading"> Key Skills </h2>
                 <ul className="skills-list">
                     <li>
                         <img
