@@ -10,7 +10,7 @@
     flex: 0.5;
 }
 
-.home .profileImage{
+/* .home .profileImage{
     margin-top: 100px;
     width: 600px;
     height: 600px;
@@ -20,11 +20,10 @@
     align-items: flex-end;
     justify-content: center;
     float: right;
-
 }
 .home .profileImage img{
     height: 75%;
-}
+} */
 .home .wrapper{
    height: 100%;
    width: 100%;

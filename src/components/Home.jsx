@@ -17,7 +17,7 @@ const Home = () => {
         <div className="home" id="home">
             <div className="left">
                 <div className="profileImage">
-                    <img src="assets/profile.png" alt="profileImage" />
+                    <img src="assets/profile.svg" alt="profileImage" />
                 </div>
             </div>
             <div className="right">
