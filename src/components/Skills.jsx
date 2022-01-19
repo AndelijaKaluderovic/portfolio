@@ -45,6 +45,13 @@ const Skills = () => {
                     <li>
                         <img
                             className="skills-icon"
+                            src="assets/skills/bootstrap.png"
+                            alt="Bootstrap"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            className="skills-icon"
                             src="assets/skills/nodejs.png"
                             alt="NodeJS"
                         />
