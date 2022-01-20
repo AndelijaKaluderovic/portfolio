@@ -22,7 +22,22 @@
     border-radius: 15px;
 
 }
-
+.links{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.links a:hover{
+    color: #FBA92C;
+    background-color: #141414;
+    border-radius: 10px;
+}
+.links a{
+    color: #141414;
+    text-decoration: none;
+    padding: 10px;
+}
 .project-photo{
     border-radius: 20px;
     width: 330px;
@@ -30,3 +45,8 @@
     /* box-shadow: 15px  15px 15px 15px #141414; */
 }
 
+@media screen and (max-width: 800px) {
+    .work .wrapper{
+        grid-template-columns: 1fr;
+    }
+  }
