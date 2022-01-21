@@ -36,7 +36,7 @@ const Contact = () => {
                   </li>
               </ul>
           </div>
-        <img src="assets/contact.svg" alt="" className="contact-image"/>
+        {/* <img src="assets/contact.svg" alt="" className="contact-image"/> */}
       </div>
       <div className="right">
         <h2>Contact</h2>

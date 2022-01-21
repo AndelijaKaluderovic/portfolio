@@ -1,12 +1,12 @@
 .skills{
     background-color: #141414;
-    padding-top: 50px;
+    padding-top: 30px;
     color: #FBA92C;
 }
 .skills .heading{
   font-size: 40px;
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 .skills-list{
     display: grid;
