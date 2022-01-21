@@ -25,7 +25,7 @@ const Contact = () => {
               <ul className="contact-list">
                   <li>
                       <img src={phoneP} alt="phone" className="contact-icon"/>
-                      <p> +46722705908</p>
+                      <p> +46 72 270 59 08</p>
                   </li>
                   <li>
                       <img src={emailP} alt="email" className="contact-icon"/>

@@ -61,7 +61,8 @@
 }
 .contact-list{
     background-color: #141414;
-    color: white;
+    color: #FBA92C;
+    font-size: 20px;
     height: 600px;
     margin: 50px;
     border-radius: 20px;
@@ -75,8 +76,9 @@
 
 }
 .contact-list li a{
-    color: white;
+    color: #FBA92C;
     text-decoration: none;
+    font-size: 20px;
 }
 .contact-icon{
     width: 50px;

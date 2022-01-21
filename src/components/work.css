@@ -15,12 +15,16 @@
 }
 .project{
     margin: 20px;
-    padding: 20px;
+    padding: 40px;
 }
 .project:hover{
     box-shadow: 10px 10px 25px #141414;
     border-radius: 15px;
 
+}
+.project h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .links{
     padding: 20px;
@@ -40,13 +44,19 @@
 }
 .project-photo{
     border-radius: 20px;
-    width: 330px;
-    height: 230px;
+    width: 230px;
+    height: 130px;
     /* box-shadow: 15px  15px 15px 15px #141414; */
 }
 
 @media screen and (max-width: 800px) {
     .work .wrapper{
         grid-template-columns: 1fr;
+    }
+    .project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
   }

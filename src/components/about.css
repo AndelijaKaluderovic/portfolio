@@ -29,3 +29,13 @@
     margin: 0 auto;
     padding-bottom: 50px;
 }
+@media screen and (max-width: 800px) {
+    .about-wrapper{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 450px) {
+    .about-wrapper > *{
+        padding: 10px;
+    }
+}
