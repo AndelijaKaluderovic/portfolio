@@ -1,4 +1,6 @@
 import './home.css'
+import profileP from '../assets/profile.svg';
+import arrowP from '../assets/arrowDown.png';
 import { init } from 'ityped'
 import { useEffect, useRef } from 'react'
 
@@ -17,7 +19,7 @@ const Home = () => {
         <div className="home" id="home">
             <div className="left">
                 <div className="profile-image">
-                    <img src="assets/profile.svg" alt="profileImage" />
+                    <img src={profileP} alt="profileImage" />
                 </div>
             </div>
             <div className="right">
@@ -26,7 +28,7 @@ const Home = () => {
                     <h1>Angie</h1>
                     <h3>Fullstack  <span ref={textRef}></span></h3>
                 </div>
-                <a href="#about"><img src="assets/arrowDown.png" alt="arrowDown" /></a>
+                <a href="#about"><img src={arrowP} alt="arrowDown" /></a>
             </div>
         </div>
     )

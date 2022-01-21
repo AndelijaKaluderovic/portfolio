@@ -1,4 +1,8 @@
 import './work.css'
+import saltP from '../assets/projects/saltplatform.png';
+import marvelpediaP from '../assets/projects/marvelpedia.png';
+import todoappP from '../assets/projects/todoapp.png';
+import weatherP from '../assets/projects/weatherapp.png';
 
 const Work = () => {
     return (
@@ -8,7 +12,7 @@ const Work = () => {
             <div className="wrapper">
                 <div className="project">
                     <a href="https://salt-platform.vercel.app/index" target="_blank" rel="noreferrer" className="project-link">
-                        <img src="assets/projects/saltplatform.png" alt="project-screenshot" className="project-photo" />
+                        <img src={saltP} alt="project-screenshot" className="project-photo" />
                     </a>
                     <h3>Salt Platform</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum vulputate porta. Suspendisse ac congue nunc. Quisque tincidunt urna quis sagittis venenatis. Phasellus eros diam, tristique sit amet aliquet a, ullamcorper eget velit. Sed suscipit consequat lectus, aliquet viverra dolor mollis quis.</p>
@@ -19,7 +23,7 @@ const Work = () => {
                 </div>
                 <div className="project">
                     <a href="www.google.com" target="_blank" rel="noreferrer" className="project-link">
-                        <img src="assets/projects/marvelpedia.png" alt="project-screenshot" className="project-photo" />
+                        <img src={marvelpediaP} alt="project-screenshot" className="project-photo" />
                     </a>
                     <h3>Marvelpedia</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum vulputate porta. Suspendisse ac congue nunc. Quisque tincidunt urna quis sagittis venenatis. Phasellus eros diam, tristique sit amet aliquet a, ullamcorper eget velit. Sed suscipit consequat lectus, aliquet viverra dolor mollis quis.</p>
@@ -30,7 +34,7 @@ const Work = () => {
                 </div>
                 <div className="project">
                     <a href="https://lucid-dubinsky-eb7b37.netlify.app/" target="_blank" rel="noreferrer"className="project-link">
-                        <img src="assets/projects/todoapp.png" alt="project-screenshot" className="project-photo" />
+                        <img src={todoappP} alt="project-screenshot" className="project-photo" />
                     </a>
                     <h3>Todo App</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum vulputate porta. Suspendisse ac congue nunc. Quisque tincidunt urna quis sagittis venenatis. Phasellus eros diam, tristique sit amet aliquet a, ullamcorper eget velit. Sed suscipit consequat lectus, aliquet viverra dolor mollis quis.</p>
@@ -41,7 +45,7 @@ const Work = () => {
                 </div>
                 <div className="project">
                     <a href="https://flamboyant-heisenberg-5beb54.netlify.app/" target="_blank" rel="noreferrer" className="project-link">
-                        <img src="assets/projects/weatherapp.png" alt="project-screenshot" className="project-photo" />
+                        <img src={weatherP} alt="project-screenshot" className="project-photo" />
                     </a>
                     <h3>Weather App</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum vulputate porta. Suspendisse ac congue nunc. Quisque tincidunt urna quis sagittis venenatis. Phasellus eros diam, tristique sit amet aliquet a, ullamcorper eget velit. Sed suscipit consequat lectus, aliquet viverra dolor mollis quis.</p>

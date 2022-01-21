@@ -1,4 +1,9 @@
 import './contact.css';
+// import contactP from '../assets/contact.svg';
+import emailP from '../assets/contact/email.png';
+import githubP from '../assets/contact/github.png';
+import linkedinP from '../assets/contact/linkedin.png';
+import phoneP from '../assets/contact/phone.png';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -19,24 +24,24 @@ const Contact = () => {
           <div className="contact-info">
               <ul className="contact-list">
                   <li>
-                      <img src="assets/contact/phone.png" alt="phone" className="contact-icon"/>
+                      <img src={phoneP} alt="phone" className="contact-icon"/>
                       <p> +46722705908</p>
                   </li>
                   <li>
-                      <img src="assets/contact/email.png" alt="email" className="contact-icon"/>
+                      <img src={emailP} alt="email" className="contact-icon"/>
                       <p> andeka011@gmail.com </p>
                   </li>
                   <li>
-                      <img src="assets/contact/linkedin.png" alt="linkedin" className="contact-icon"/>
+                      <img src={linkedinP} alt="linkedin" className="contact-icon"/>
                       <a href="https://www.linkedin.com/in/andjelija-kaludjerovic"> LinkedIn</a>
                   </li>
                   <li>
-                      <img src="assets/contact/github.png" alt="github" className="contact-icon"/>
+                      <img src={githubP} alt="github" className="contact-icon"/>
                       <a href="https://github.com/AndelijaKaluderovic"> Github</a>
                   </li>
               </ul>
           </div>
-        {/* <img src="assets/contact.svg" alt="" className="contact-image"/> */}
+        {/* <img src={contactP} alt="" className="contact-image"/> */}
       </div>
       <div className="right">
         <h2>Contact</h2>

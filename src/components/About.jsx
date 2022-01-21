@@ -1,10 +1,11 @@
-import './about.css'
+import './about.css';
+import aboutP from '../assets/about.svg';
 
 const About = () => {
     return (
         <div className="about" id="about">
             <h2 className="heading">About me...</h2>
-            <img src="assets/about.svg" alt="about" className="about-photo" />
+            <img src={aboutP} alt="about" className="about-photo" />
             <div className="about-wrapper">
                 <div className="about-left">
                     <h3>Dev Journey</h3>

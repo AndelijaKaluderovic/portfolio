@@ -1,4 +1,20 @@
 import './skills.css'
+import awsP from '../assets/skills/aws.png';
+import bootstrapP from '../assets/skills/bootstrap.png';
+import cssP from '../assets/skills/css.png';
+import dockerP from '../assets/skills/docker.png';
+import expressP from '../assets/skills/aws.png';
+import figmaP from '../assets/skills/figma.png';
+import githubP from '../assets/skills/github.png';
+import htmlP from '../assets/skills/html.png';
+import jsP from '../assets/skills/js.png';
+import mongodbP from '../assets/skills/mongodb.png';
+import nodejsP from '../assets/skills/nodejs.png';
+import postgresqlP from '../assets/skills/postgresql.png';
+import reactP from '../assets/skills/react.png';
+import reduxP from '../assets/skills/redux.png';
+import tddP from '../assets/skills/tdd.png';
+
 
 const Skills = () => {
     return (
@@ -9,21 +25,21 @@ const Skills = () => {
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/html.png"
+                            src={htmlP}
                             alt="HTML"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/css.png"
+                            src={cssP}
                             alt="CSS"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/js.png"
+                            src={jsP}
                             alt="JavaScript"
                         />
 
@@ -31,84 +47,84 @@ const Skills = () => {
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/react.png"
+                            src={reactP}
                             alt="React"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/redux.png"
+                            src={reduxP}
                             alt="Redux"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/bootstrap.png"
+                            src={bootstrapP}
                             alt="Bootstrap"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/nodejs.png"
+                            src={nodejsP}
                             alt="NodeJS"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/express.png"
+                            src={expressP}
                             alt="Express"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/figma.png"
+                            src={figmaP}
                             alt="Figma"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/postgresql.png"
+                            src={postgresqlP}
                             alt="PostgreSQL"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/mongodb.png"
+                            src={mongodbP}
                             alt="MongoDB"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/docker.png"
+                            src={dockerP}
                             alt="Docker"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/github.png"
+                            src={githubP}
                             alt="Github"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/tdd.png"
+                            src={tddP}
                             alt="TDD"
                         />
                     </li>
                     <li>
                         <img
                             className="skills-icon"
-                            src="assets/skills/aws.png"
+                            src={awsP}
                             alt="AWS"
                         />
                     </li>
