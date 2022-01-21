@@ -9,7 +9,14 @@
 .home .right{
     flex: 0.5;
 }
-
+.home .profile-image{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.home .profile-image img{
+   margin-top: 50px; 
+}
 /* .home .profileImage{
     margin-top: 100px;
     width: 600px;
@@ -47,7 +54,7 @@
 .home a{
     position: absolute;
     bottom: 10px;
-    left: 65%;
+    left: 44.5%;
 }
 .home .right img{
     width: 40px;
@@ -61,4 +68,27 @@
 .home span{
     font-size: inherit;
     color: #FBA92C;
+}
+
+@media screen and (max-width: 450px){
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+    .home .wrapper{
+        border: 5px solid #141414;
+        border-radius: 20px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .home .left{
+        display: none;
+    }
+    .home .wrapper h3{
+        font-size: 25px;
+    }
+    /* .home .wrapper span{
+        display: block;
+    } */
 }

@@ -10,13 +10,13 @@ const Home = () => {
           backDelay: 1630,
           backSpeed: 35,
           showCursor: false,
-          strings: ["JavaScript Developer", "Pianist", "Dog Owner"]
+          strings: ["Developer", "Pianist", "Dog Owner"]
       })
     }, [])
     return (
         <div className="home" id="home">
             <div className="left">
-                <div className="profileImage">
+                <div className="profile-image">
                     <img src="assets/profile.svg" alt="profileImage" />
                 </div>
             </div>
