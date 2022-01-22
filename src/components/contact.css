@@ -6,6 +6,7 @@
 .contact .left{
     flex: 1;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 /* .contact img{
     height: 100%;
@@ -21,8 +22,8 @@
     font-size: 30px;
 }
 .contact form{
-    width: 70%;
-    height: 70%;
+    width: 90%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,12 +34,14 @@
     width: 300px;
     height: 30px;
     font-size: 14px;
+    border: 2px solid;
 }
 
 .contact textarea{
     width: 300px;
     height: 200px;
     font-size: 14px;
+    border: 2px solid;
 }
 
 .contact button{
@@ -92,3 +95,34 @@
     border-radius: 5px;
     padding-left: 5px;
 }
+@media screen and (max-width: 860px) {
+    .contact{
+        flex-direction: column;
+    }
+    .contact-list{
+        flex-direction: row;
+        font-size: 20px;
+        height: 300px;
+        margin: 50px;
+        border-radius: 20px;
+    }
+    .contact-list li{
+        flex-direction: row;
+    }
+  
+    .contact form > *{
+        width: 500px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    .contact textarea{
+        height: 100px;
+    }
+
+  }
+@media screen and (max-width: 600px) {
+    .contact form > *{
+        width: 250px;
+    }
+  
+  }
