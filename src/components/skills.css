@@ -25,3 +25,9 @@
   object-fit: cover;
   border-radius: 50%;
 }
+@media screen and (max-width: 500px) {
+  .skills-list{
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    
+  }
+}
