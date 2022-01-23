@@ -3,7 +3,7 @@ import awsP from '../assets/skills/aws.png';
 import bootstrapP from '../assets/skills/bootstrap.png';
 import cssP from '../assets/skills/css.png';
 import dockerP from '../assets/skills/docker.png';
-import expressP from '../assets/skills/aws.png';
+import expressP from '../assets/skills/express.png';
 import figmaP from '../assets/skills/figma.png';
 import githubP from '../assets/skills/github.png';
 import htmlP from '../assets/skills/html.png';
