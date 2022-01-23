@@ -8,13 +8,13 @@ import { useEffect, useRef } from 'react'
 const Home = () => {
     const textRef = useRef()
     useEffect(() => {
-      init(textRef.current, {
-          typeSpeed: 80,
-          backDelay: 1630,
-          backSpeed: 35,
-          showCursor: false,
-          strings: ["Developer", "Pianist", "Dog Owner"]
-      })
+        init(textRef.current, {
+            typeSpeed: 80,
+            backDelay: 1630,
+            backSpeed: 35,
+            showCursor: false,
+            strings: ["Developer", "Pianist", "Dog Owner"]
+        })
     }, [])
     return (
         <div className="home" id="home">

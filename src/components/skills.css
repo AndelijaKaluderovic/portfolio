@@ -25,7 +25,8 @@
   object-fit: cover;
   border-radius: 50%;
 }
-.skills .arrowDown{
+.skills .arrowDown,
+.skills .arrowUp{
   display: block;
   margin: 0 auto;
   width: 40px;

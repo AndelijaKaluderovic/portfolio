@@ -1,10 +1,12 @@
 import './about.css';
 import aboutP from '../assets/about.svg';
+import arrowU from '../assets/arrowUp.png'
 import arrowP from '../assets/arrowDown.png';
 
 const About = () => {
     return (
         <div className="about" id="about">
+            <a href="#home"><img src={arrowU} alt="arrowUp" className="arrowUp" /></a>     
             <h2 className="heading">About me...</h2>
             <img src={aboutP} alt="about" className="about-photo" />
             <div className="about-wrapper">

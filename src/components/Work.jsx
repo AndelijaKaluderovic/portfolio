@@ -3,13 +3,15 @@ import saltP from '../assets/projects/saltplatform.png';
 import marvelpediaP from '../assets/projects/marvelpedia.png';
 import todoappP from '../assets/projects/todoapp.png';
 import weatherP from '../assets/projects/weatherapp.png';
+import arrowU from '../assets/arrowUp.png'
 import arrowP from '../assets/arrowDown.png';
 
 const Work = () => {
     return (
         <div className="work" id="work">
+            <a href="#about"><img src={arrowU} alt="arrowUp" className="arrowUp" /></a>
             <h2 className="heading"
-            >Some of my projects</h2>
+            >My projects</h2>
             <div className="wrapper">
                 <div className="project">
                     <a href="https://salt-platform.vercel.app/index" target="_blank" rel="noreferrer" className="project-link">
@@ -34,7 +36,7 @@ const Work = () => {
                     </div>
                 </div>
                 <div className="project">
-                    <a href="https://lucid-dubinsky-eb7b37.netlify.app/" target="_blank" rel="noreferrer"className="project-link">
+                    <a href="https://lucid-dubinsky-eb7b37.netlify.app/" target="_blank" rel="noreferrer" className="project-link">
                         <img src={todoappP} alt="project-screenshot" className="project-photo" />
                     </a>
                     <h3>Todo App</h3>

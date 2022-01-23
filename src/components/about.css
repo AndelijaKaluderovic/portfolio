@@ -29,7 +29,8 @@
     margin: 0 auto;
     padding-bottom: 50px;
 }
-.about .arrowDown{
+.about .arrowDown,
+.about .arrowUp{
     width: 40px;
     animation: Blink 2s infinite;
 }

@@ -54,7 +54,8 @@
     width: 380px;
     height: 250px;
 }
-.work .arrowDown{
+.work .arrowDown,
+.work .arrowUp{
     width: 40px;
     animation: Blink 2s infinite;
 }
