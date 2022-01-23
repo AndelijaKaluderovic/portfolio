@@ -26,7 +26,7 @@ const Work = () => {
                         <img src={marvelpediaP} alt="project-screenshot" className="project-photo" />
                     </a>
                     <h3>Marvelpedia</h3>
-                    <p>This is the app I created under the strict time limit during the intensive Salt Academy programme. I was tasked to create a React/Express app of my choice within 1 day. As a fan of superheroes and comics, I decided to create an easily accessible and searchable mini-encyclopaedia with information about each of the Marvel characters.</p>
+                    <p>This is the app I created under the strict time limit during the intensive Salt Academy programme. I was tasked to create a React/Express app of my choice within 1 day. As a fan of superheroes and comics, I decided to create an easily accessible and searchable mini-encyclopedia with information about each of the Marvel characters.</p>
                     <div className="links">
                         <a href="https://github.com/AndelijaKaluderovic/hackday-project" target="_blank" rel="noreferrer">See the code</a>
                         <a href="www.google.com" target="_blank" rel="noreferrer">Try it</a>

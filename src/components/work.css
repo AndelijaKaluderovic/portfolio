@@ -36,16 +36,18 @@
 }
 .links a{
     color: #141414;
+    border: 2px solid #141414;
+    border-radius: 10px;
     text-decoration: none;
-    padding: 10px;
+    padding: 7px;
 }
 .project-photo{
     border-radius: 20px;
-    width: 230px;
-    height: 130px;
+    width: 380px;
+    height: 250px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 930px) {
     .work .wrapper{
         grid-template-columns: 1fr;
     }
@@ -55,4 +57,17 @@
     justify-content: center;
     align-items: center;
     }
-  }
+}
+@media screen and (max-width: 500px){
+    .project-photo{
+        width: 300px;
+        height: 210px;
+    }
+}
+@media screen and (max-width: 400px){
+    .project-photo{
+        width: 230px;
+        height: 150px;
+    }
+}
+
