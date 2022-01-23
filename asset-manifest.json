@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f2bdd650.css",
-    "main.js": "/portfolio/static/js/main.df40d3b8.js",
+    "main.css": "/portfolio/static/css/main.4c2e0e6f.css",
+    "main.js": "/portfolio/static/js/main.2cd47259.js",
     "static/media/todoapp.png": "/portfolio/static/media/todoapp.fe1b16230297e0cb35e2.png",
     "static/media/weatherapp.png": "/portfolio/static/media/weatherapp.f74a90bde6be3275ad50.png",
+    "static/media/profile2.png": "/portfolio/static/media/profile2.922406126de3119f2104.png",
     "static/media/saltplatform.png": "/portfolio/static/media/saltplatform.4a72e48a8adab441c1fa.png",
     "static/media/marvelpedia.png": "/portfolio/static/media/marvelpedia.9eccd600997d72ff3f7c.png",
     "static/media/html.png": "/portfolio/static/media/html.338f35f49253883fd3e4.png",
@@ -24,15 +25,14 @@
     "static/media/github.png": "/portfolio/static/media/github.856524c1678f37b2a2ad.png",
     "static/media/email.png": "/portfolio/static/media/email.14f38e893b6e008999d3.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.aab49fc4597a1219026a.png",
-    "static/media/profile.svg": "/portfolio/static/media/profile.947e7e49239f3636408961145d34e295.svg",
     "static/media/arrowDown.png": "/portfolio/static/media/arrowDown.c9ae9e16f878b5a9d4fb.png",
     "static/media/about.svg": "/portfolio/static/media/about.efe421d3cbc41394da278a19c38daab3.svg",
     "index.html": "/portfolio/index.html",
-    "main.f2bdd650.css.map": "/portfolio/static/css/main.f2bdd650.css.map",
-    "main.df40d3b8.js.map": "/portfolio/static/js/main.df40d3b8.js.map"
+    "main.4c2e0e6f.css.map": "/portfolio/static/css/main.4c2e0e6f.css.map",
+    "main.2cd47259.js.map": "/portfolio/static/js/main.2cd47259.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2bdd650.css",
-    "static/js/main.df40d3b8.js"
+    "static/css/main.4c2e0e6f.css",
+    "static/js/main.2cd47259.js"
   ]
 }
