@@ -1,10 +1,12 @@
 import './nav.css'
+// import ak from '../assets/ak.png'
 
 const Nav = () => {
     return (
         <div className="nav">
             <div className="wrapper">
                 <div className="left">
+                    {/* <img className="nav-logo" src={ak} alt="logo"/> */}
                     <h1 className="logo">AK</h1>
                 </div>
                 <div className="right">
