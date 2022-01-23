@@ -56,7 +56,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <a href="#work"><img src={arrowP} alt="arrowDown" className="arrowDown" /></a>
+            <a href="#skills"><img src={arrowP} alt="arrowDown" className="arrowDown" /></a>
         </div>
     )
 }

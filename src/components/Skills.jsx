@@ -131,7 +131,7 @@ const Skills = () => {
                         />
                     </li>
                 </ul></div>
-                <a href="#work"><img src={arrowP} alt="arrowDown" className="arrowDown" /></a>     
+                <a href="#contact"><img src={arrowP} alt="arrowDown" className="arrowDown" /></a>     
         </div>
     )
 }

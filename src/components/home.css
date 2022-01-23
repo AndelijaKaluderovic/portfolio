@@ -13,6 +13,9 @@ display: flex;
     display: flex;
     justify-content: center; 
     align-items: center; 
+    background-image: linear-gradient(#FBA92C, white);
+    border-radius: 35%;
+    margin: 80px;
 }
 .home .profile-image img{
    margin-top: 50px; 
@@ -55,7 +58,11 @@ display: flex;
     font-size: inherit;
     color: #FBA92C;
 }
-
+@media screen and (max-width: 768px){
+    .home .profile-image{
+        margin: 30px;
+    }
+}
 @media screen and (max-width: 450px){
     .home {
         flex-direction: column;
