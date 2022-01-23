@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.aaf7c034.css",
-    "main.js": "/portfolio/static/js/main.302c8c96.js",
+    "main.css": "/portfolio/static/css/main.f2bdd650.css",
+    "main.js": "/portfolio/static/js/main.df40d3b8.js",
     "static/media/todoapp.png": "/portfolio/static/media/todoapp.fe1b16230297e0cb35e2.png",
     "static/media/weatherapp.png": "/portfolio/static/media/weatherapp.f74a90bde6be3275ad50.png",
     "static/media/saltplatform.png": "/portfolio/static/media/saltplatform.4a72e48a8adab441c1fa.png",
@@ -28,11 +28,11 @@
     "static/media/arrowDown.png": "/portfolio/static/media/arrowDown.c9ae9e16f878b5a9d4fb.png",
     "static/media/about.svg": "/portfolio/static/media/about.efe421d3cbc41394da278a19c38daab3.svg",
     "index.html": "/portfolio/index.html",
-    "main.aaf7c034.css.map": "/portfolio/static/css/main.aaf7c034.css.map",
-    "main.302c8c96.js.map": "/portfolio/static/js/main.302c8c96.js.map"
+    "main.f2bdd650.css.map": "/portfolio/static/css/main.f2bdd650.css.map",
+    "main.df40d3b8.js.map": "/portfolio/static/js/main.df40d3b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaf7c034.css",
-    "static/js/main.302c8c96.js"
+    "static/css/main.f2bdd650.css",
+    "static/js/main.df40d3b8.js"
   ]
 }
