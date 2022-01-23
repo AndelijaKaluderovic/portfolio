@@ -1,6 +1,6 @@
 .about{
     padding-top: 30px;
-    background-color: #bdbdbd;
+    background-image: linear-gradient(white, #FBA92C);
     text-align: center;
 }
 .about .heading{
@@ -28,6 +28,15 @@
     width: 80px;
     margin: 0 auto;
     padding-bottom: 50px;
+}
+.about .arrowDown{
+    width: 40px;
+    animation: Blink 2s infinite;
+}
+@keyframes Blink {
+    100%{
+        opacity: 0.1;
+    }
 }
 @media screen and (max-width: 800px) {
     .about-wrapper{

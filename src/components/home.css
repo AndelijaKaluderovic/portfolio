@@ -1,6 +1,6 @@
 .home{
-    background-color: #FFFFFF;
-    display: flex;
+background-color: white;
+display: flex;
 }
 .home .left{
     flex: 0.5;
@@ -17,20 +17,6 @@
 .home .profile-image img{
    margin-top: 50px; 
 }
-/* .home .profileImage{
-    margin-top: 100px;
-    width: 600px;
-    height: 600px;
-    background-color: #FBA92C;
-    border-radius: 50px 250px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    float: right;
-}
-.home .profileImage img{
-    height: 75%;
-} */
 .home .wrapper{
    height: 100%;
    width: 100%;

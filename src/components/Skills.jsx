@@ -14,6 +14,8 @@ import postgresqlP from '../assets/skills/postgresql.png';
 import reactP from '../assets/skills/react.png';
 import reduxP from '../assets/skills/redux.png';
 import tddP from '../assets/skills/tdd.png';
+import arrowP from '../assets/arrowDown.png';
+
 
 
 const Skills = () => {
@@ -129,6 +131,7 @@ const Skills = () => {
                         />
                     </li>
                 </ul></div>
+                <a href="#work"><img src={arrowP} alt="arrowDown" className="arrowDown" /></a>     
         </div>
     )
 }

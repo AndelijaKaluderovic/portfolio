@@ -1,12 +1,16 @@
 .work{
     padding-top: 30px;
-    background-color: #FBA92C;
+    background-image: linear-gradient(#FBA92C, #141414);
     text-align: center;
+    color: wheat;
 }
 .work .heading{
     font-size: 40px;
     text-align: center;
     padding-bottom: 50px;
+}
+.work h2{
+    color: #141414;
 }
 .work .wrapper{
     display: grid;
@@ -19,10 +23,14 @@
 .project:hover{
     box-shadow: 10px 10px 25px #141414;
     border-radius: 15px;
+    background-color: #141414;
 }
 .project h3{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.project p{
+    font-size: 20px;
 }
 .links{
     padding: 20px;
@@ -30,13 +38,13 @@
     justify-content: space-between; 
 }
 .links a:hover{
-    color: #FBA92C;
-    background-color: #141414;
+    color: #141414;
+    background-color: wheat;
     border-radius: 10px;
 }
 .links a{
-    color: #141414;
-    border: 2px solid #141414;
+    color: wheat;
+    border: 2px solid wheat;
     border-radius: 10px;
     text-decoration: none;
     padding: 7px;
@@ -46,7 +54,10 @@
     width: 380px;
     height: 250px;
 }
-
+.work .arrowDown{
+    width: 40px;
+    animation: Blink 2s infinite;
+}
 @media screen and (max-width: 930px) {
     .work .wrapper{
         grid-template-columns: 1fr;
@@ -56,6 +67,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+    .links a{
+        margin-bottom: 5px;
     }
 }
 @media screen and (max-width: 500px){

@@ -1,5 +1,6 @@
 import './about.css';
 import aboutP from '../assets/about.svg';
+import arrowP from '../assets/arrowDown.png';
 
 const About = () => {
     return (
@@ -18,6 +19,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
+            <a href="#work"><img src={arrowP} alt="arrowDown" className="arrowDown" /></a>
         </div>
     )
 }
