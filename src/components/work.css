@@ -7,7 +7,8 @@
 .work .heading{
     font-size: 40px;
     text-align: center;
-    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 .work h2{
     color: #141414;
@@ -15,6 +16,7 @@
 .work .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
 }
 .project{
     margin: 20px;
@@ -37,17 +39,17 @@
     display: flex;
     justify-content: space-between; 
 }
-.links a:hover{
-    color: #141414;
-    background-color: wheat;
-    border-radius: 10px;
-}
 .links a{
     color: wheat;
     border: 2px solid wheat;
     border-radius: 10px;
     text-decoration: none;
     padding: 7px;
+}
+.links a:hover{
+    color: #141414;
+    background-color: wheat;
+    border-radius: 10px;
 }
 .project-photo{
     border-radius: 20px;
@@ -68,11 +70,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 10px 10px 25px #141414;
+    border-radius: 15px;
+    background-color: #141414;
     }
+    
     .links{
         display: flex;
         flex-direction: column;
     }
+    
     .links a{
         margin-bottom: 5px;
     }

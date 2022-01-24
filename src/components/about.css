@@ -6,11 +6,15 @@
 .about .heading{
     font-size: 40px;
     text-align: center;
+    padding-top: 50px;
 }
 
 .about-wrapper{
     display: flex;
     align-items: center;
+}
+.about-wrapper h3{
+    padding-bottom: 30px;
 }
 .about-left{
     flex: 1;
@@ -27,7 +31,7 @@
 .about-photo{
     width: 80px;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .about .arrowDown,
 .about .arrowUp{

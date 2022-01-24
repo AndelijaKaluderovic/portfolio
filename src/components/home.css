@@ -18,7 +18,8 @@ display: flex;
     margin: 80px;
 }
 .home .profile-image img{
-   margin-top: 50px; 
+   margin-top: 50px;
+   
 }
 .home .wrapper{
    height: 100%;
@@ -43,9 +44,9 @@ display: flex;
 .home a{
     position: absolute;
     bottom: 10px;
-    left: 44.5%;
+    left: 48.5%;
 }
-.home .right img{
+.home .arrowDown{
     width: 40px;
     animation: Blink 2s infinite;
 }
@@ -57,10 +58,18 @@ display: flex;
 .home span{
     font-size: inherit;
     color: #FBA92C;
+} 
+@media screen and (max-width: 1025px){
+    .home a{
+        left: 48%;
+    }
 }
 @media screen and (max-width: 768px){
     .home .profile-image{
         margin: 30px;
+    }
+    .home a{
+        left: 47.5%;
     }
 }
 @media screen and (max-width: 450px){
@@ -80,5 +89,8 @@ display: flex;
     }
     .home .wrapper h3{
         font-size: 25px;
+    }
+    .home a{
+        left: 45%;
     }
 }

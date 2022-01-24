@@ -1,9 +1,8 @@
 import './home.css'
-// import profileP from '../assets/profile.svg';
 import profileP2 from '../assets/profile2.png'
-import arrowP from '../assets/arrowDown.png';
 import { init } from 'ityped'
 import { useEffect, useRef } from 'react'
+import arrowP from '../assets/arrowDown.png';
 
 const Home = () => {
     const textRef = useRef()
@@ -29,8 +28,8 @@ const Home = () => {
                     <h1>Angie</h1>
                     <h3>Fullstack  <span ref={textRef}></span></h3>
                 </div>
-                <a href="#about"><img src={arrowP} alt="arrowDown" /></a>
             </div>
+            <a href="#about"><img src={arrowP} alt="arrowDown" className="arrowDown" /></a>
         </div>
     )
 }

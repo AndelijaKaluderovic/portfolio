@@ -6,6 +6,7 @@
 .skills .heading{
   font-size: 40px;
   text-align: center;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 .skills-list{
@@ -13,6 +14,7 @@
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     padding-top: 50px;
+    padding-bottom: 50px;
   }
   .skills-list > *{
     display: flex;

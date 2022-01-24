@@ -5,7 +5,6 @@ import githubP from '../assets/contact/github.png';
 import linkedinP from '../assets/contact/linkedin.png';
 import phoneP from '../assets/contact/phone.png';
 import emailjs from '@emailjs/browser';
-import arrowU from '../assets/arrowUp.png'
 
 const Contact = () => {
   const [done, setDone] = useState(false)
@@ -23,7 +22,6 @@ const Contact = () => {
   };
   return (
     <div className="contact" id="contact">
-      <a href="#skills"><img src={arrowU} alt="arrowUp" className="arrowUp" /></a>
       <div className="left">
         <div className="contact-info">
           <ul className="contact-list">
