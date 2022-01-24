@@ -2,7 +2,7 @@ import React from 'react'
 import About from './components/About'
 import Contact from './components/Contact'
 import Home from './components/Home'
-import Nav from './components/Nav'
+import Navbar from './components/Navbar'
 import Skills from './components/Skills'
 import Work from './components/Work'
 import './app.css'
@@ -10,7 +10,7 @@ import './app.css'
 const App = () => {
   return (
     <div className="app">
-      <Nav />
+      <Navbar />
       <div className="sections">
         <Home />
         <About />
