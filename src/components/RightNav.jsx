@@ -4,8 +4,10 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
   li {
-    padding: 18px 10px;
+    padding: 0px 10px;
   }
   a {
       text-decoration: none;
@@ -29,6 +31,7 @@ const Ul = styled.ul`
     transition: transform 0.3s ease-in-out;
     li {
       color: white;
+      padding: 20px 10px;
     }
   }
 `;

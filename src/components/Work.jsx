@@ -17,7 +17,7 @@ const Work = () => {
                     <a href="https://salt-platform.vercel.app/index" target="_blank" rel="noreferrer" className="project-link">
                         <img src={saltP} alt="project-screenshot" className="project-photo" />
                     </a>
-                    <h3>Salt Platform ( for desktop )</h3>
+                    <h3>Salt Platform (desktop app)</h3>
                     <p>Salt Platform is the result of a group final project in the Salt programme. Together with other team members, I created desktop platform, which contains hand-picked useful links that prospective students and current Salt students can use to prepare for bootcamp. It is also the central place for current students to find, save, and share educational materials, tutorials, labs, Github repositories, demos, and presentations.</p>
                     <div className="links">
                         <a href="https://salt-platform.vercel.app/index" target="_blank" rel="noreferrer" className="active">Try the app</a>

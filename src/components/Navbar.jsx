@@ -3,7 +3,7 @@ import Burger from './Burger';
 
 const Nav = styled.nav`
   width: 100%;
-  height: 55px;
+  height: 57px;
   background-color: #141414;
   border-bottom: 2px solid #141414;
   padding: 0 20px;
