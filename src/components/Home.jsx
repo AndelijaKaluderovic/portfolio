@@ -1,5 +1,5 @@
 import './home.css'
-import profileP2 from '../assets/profile2.png'
+import profileP2 from '../assets/profile.png'
 import { init } from 'ityped'
 import { useEffect, useRef } from 'react'
 import arrowP from '../assets/arrowDown.png';

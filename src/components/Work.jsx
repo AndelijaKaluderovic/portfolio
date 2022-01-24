@@ -17,7 +17,7 @@ const Work = () => {
                     <a href="https://salt-platform.vercel.app/index" target="_blank" rel="noreferrer" className="project-link">
                         <img src={saltP} alt="project-screenshot" className="project-photo" />
                     </a>
-                    <h3>Salt Platform</h3>
+                    <h3>Salt Platform ( for desktop )</h3>
                     <p>Salt Platform is the result of a group final project in the Salt programme. Together with other team members, I created desktop platform, which contains hand-picked useful links that prospective students and current Salt students can use to prepare for bootcamp. It is also the central place for current students to find, save, and share educational materials, tutorials, labs, Github repositories, demos, and presentations.</p>
                     <div className="links">
                         <a href="https://salt-platform.vercel.app/index" target="_blank" rel="noreferrer" className="active">Try the app</a>
@@ -25,13 +25,13 @@ const Work = () => {
                     </div>
                 </div>
                 <div className="project">
-                    <a href="www.google.com" target="_blank" rel="noreferrer" className="project-link">
+                    {/* <a href="www.google.com" target="_blank" rel="noreferrer" className="project-link"> */}
                         <img src={marvelpediaP} alt="project-screenshot" className="project-photo" />
-                    </a>
+                    {/* </a> */}
                     <h3>Marvelpedia</h3>
                     <p>This is the app I created under the strict time limit during the intensive Salt Academy programme. I was tasked to create a React/Express app of my choice within 1 day. As a fan of superheroes and comics, I decided to create an easily accessible and searchable mini-encyclopedia with information about each of the Marvel characters.</p>
                     <div className="links">
-                        <a href="www.google.com" target="_blank" rel="noreferrer" className="active">Try the app</a>
+                        {/* <a href="www.google.com" target="_blank" rel="noreferrer" className="active">Try the app</a> */}
                         <a href="https://github.com/AndelijaKaluderovic/hackday-project" target="_blank" rel="noreferrer">See the code</a>
                     </div>
                 </div>
