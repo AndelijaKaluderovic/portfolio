@@ -7,11 +7,14 @@
 .work .heading{
     font-size: 40px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 .work h2{
     color: #141414;
+}
+.work p{
+    text-align: justify;
 }
 .work .wrapper{
     display: grid;
@@ -37,7 +40,8 @@
 .links{
     padding: 20px;
     display: flex;
-    justify-content: space-between; 
+    flex-direction: column;
+    align-items: self-end;
 }
 .links a{
     color: wheat;
@@ -45,11 +49,17 @@
     border-radius: 10px;
     text-decoration: none;
     padding: 7px;
+    width: 120px;
 }
 .links a:hover{
     color: #141414;
     background-color: wheat;
     border-radius: 10px;
+}
+.project .active{
+    margin-bottom: 10px;
+    background-color: #FBA92C;
+    color: #141414;
 }
 .project-photo{
     border-radius: 20px;
@@ -59,11 +69,13 @@
 .work .arrowDown,
 .work .arrowUp{
     width: 40px;
-    animation: Blink 2s infinite;
 }
 @media screen and (max-width: 930px) {
     .work .wrapper{
         grid-template-columns: 1fr;
+    }
+    .work p{
+        font-size: 18px;
     }
     .project{
     display: flex;

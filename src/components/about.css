@@ -16,6 +16,9 @@
 .about-wrapper h3{
     padding-bottom: 30px;
 }
+.about-wrapper p{
+    text-align: justify;
+}
 .about-left{
     flex: 1;
     overflow: hidden;
@@ -36,7 +39,6 @@
 .about .arrowDown,
 .about .arrowUp{
     width: 40px;
-    animation: Blink 2s infinite;
 }
 @keyframes Blink {
     100%{
@@ -46,6 +48,10 @@
 @media screen and (max-width: 800px) {
     .about-wrapper{
         flex-direction: column;
+    }
+    .about-wrapper p{
+        padding: 10px;
+        font-size: 18px;
     }
 }
 @media screen and (max-width: 450px) {

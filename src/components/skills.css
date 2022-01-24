@@ -6,7 +6,7 @@
 .skills .heading{
   font-size: 40px;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 50px;
 }
 .skills-list{
@@ -32,7 +32,6 @@
   display: block;
   margin: 0 auto;
   width: 40px;
-  animation: Blink 2s infinite;
 }
 @media screen and (max-width: 500px) {
   .skills-list{
