@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4c2e0e6f.css",
-    "main.js": "/portfolio/static/js/main.2cd47259.js",
+    "main.css": "/portfolio/static/css/main.ece33b50.css",
+    "main.js": "/portfolio/static/js/main.6eae28d9.js",
     "static/media/todoapp.png": "/portfolio/static/media/todoapp.fe1b16230297e0cb35e2.png",
     "static/media/weatherapp.png": "/portfolio/static/media/weatherapp.f74a90bde6be3275ad50.png",
     "static/media/profile2.png": "/portfolio/static/media/profile2.922406126de3119f2104.png",
@@ -25,14 +25,15 @@
     "static/media/github.png": "/portfolio/static/media/github.856524c1678f37b2a2ad.png",
     "static/media/email.png": "/portfolio/static/media/email.14f38e893b6e008999d3.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.aab49fc4597a1219026a.png",
+    "static/media/arrowUp.png": "/portfolio/static/media/arrowUp.9df5af23a707317f5f73.png",
     "static/media/arrowDown.png": "/portfolio/static/media/arrowDown.c9ae9e16f878b5a9d4fb.png",
     "static/media/about.svg": "/portfolio/static/media/about.efe421d3cbc41394da278a19c38daab3.svg",
     "index.html": "/portfolio/index.html",
-    "main.4c2e0e6f.css.map": "/portfolio/static/css/main.4c2e0e6f.css.map",
-    "main.2cd47259.js.map": "/portfolio/static/js/main.2cd47259.js.map"
+    "main.ece33b50.css.map": "/portfolio/static/css/main.ece33b50.css.map",
+    "main.6eae28d9.js.map": "/portfolio/static/js/main.6eae28d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c2e0e6f.css",
-    "static/js/main.2cd47259.js"
+    "static/css/main.ece33b50.css",
+    "static/js/main.6eae28d9.js"
   ]
 }
