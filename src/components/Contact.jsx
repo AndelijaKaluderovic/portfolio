@@ -1,4 +1,5 @@
 import './contact.css';
+import { useState } from 'react';
 import emailP from '../assets/contact/email.png';
 import githubP from '../assets/contact/github.png';
 import linkedinP from '../assets/contact/linkedin.png';
@@ -7,12 +8,14 @@ import emailjs from '@emailjs/browser';
 import arrowU from '../assets/arrowUp.png'
 
 const Contact = () => {
+  const [done, setDone] = useState(false)
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_k3bbx5s', 'template_3zbpqdw', e.target, 'user_gdmpU7GXuf80yXbe8CZs2')
       .then((result) => {
         console.log(result.text);
+        setDone(true)
       }, (error) => {
         console.log(error.text);
       });
@@ -51,6 +54,7 @@ const Contact = () => {
           <input type="text" placeholder="Subject" name="subject" />
           <textarea placeholder="Message" name="message"></textarea>
           <button type="submit">Send</button>
+          {done && <p className="sumbitted">Thank you, I'll contact you ASAP. :)</p>}
         </form>
       </div>
       <div className="footer">

@@ -64,8 +64,12 @@
     outline: none;
 }
 
-.contact span{
+.contact .sumbitted{
+    display: block;
+    margin: 0 auto;
     color: #FBA92C;
+    font-size: 20px;
+    padding-top: 10px;
 }
 .contact-list{
     background-color: #141414;
