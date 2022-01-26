@@ -12,13 +12,11 @@ const About = () => {
             <div className="about-wrapper">
                 <div className="about-left">
                     <h3>Dev Journey</h3>
-                    <p>I started as a "hobby coder" over two years ago. My interest was sparked by the opportunity to create something from scratch, something almost unlimited yet tangible, something visual yet flexible depending on the need and industry. My journey started with the basics of web design, then moved on to the frontend and finally the backend. Today, I am a fullstack javascript developer who started software development in Belgrade, Serbia. Thanks to Salt Academy, I followed my passion and became part of the programming crew in Stockholm, Sweden.</p>
+                    <p>My journey as a programmer began over two years ago. My interest was sparked by the possibility of creating something from scratch, something almost unlimited yet tangible, something visual yet flexible depending on the need and industry. I first got into the basics of web design, then the frontend, and finally the backend. Following my passion I moved from Belgrade (Serbia) to Stockholm and thanks to Salt Academy I am now a fullstack javascript developer and part of the programming crew in Stockholm.</p>
                 </div>
                 <div className="about-right">
                     <h3>Hobbies</h3>
-                    <p>My biggest love growing up was indoor sports like volleyball, basketball and recently discovered Ultimate Frisbee. When I am not hanging out with friends or working out at the gym, I spend my time playing piano with the most amazing audience ever - my partner and two dog friends.
-                        The rest of my time is somehow spent in the kitchen creating culinary experiments accompanied by dance moves from a younger time when I was a professional hip-hopper. I like to think of myself as a creative person and enjoy the fact that I have turned my hobby and interest in programming into my main job, programming.
-                    </p>
+                    <p>Growing up, my biggest love was indoor sports like volleyball, basketball and recently discovered Ultimate Frisbee. When I am not hanging out with friends or working out at the gym, I spend my time playing piano with the most amazing audience ever - my two dog friends. The rest of my time is somehow spent in the kitchen creating culinary experiments accompanied by dance moves from a younger time when I was a professional hip-hopper. I consider myself a versatile person and a nature lover, so a middsommar celebration with friends and some interesting topics is like a tailor-made for me.</p>
                 </div>
             </div>
             <a href="#work"><img src={arrowP} alt="arrowDown" className="arrowDown" /></a>

@@ -49,6 +49,9 @@
     .about-wrapper{
         flex-direction: column;
     }
+    .about-wrapper h3{
+        padding-top: 40px;
+    }
     .about-wrapper p{
         padding: 10px;
         font-size: 18px;
