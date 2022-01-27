@@ -25,13 +25,13 @@ const Work = () => {
                     </div>
                 </div>
                 <div className="project">
-                    {/* <a href="www.google.com" target="_blank" rel="noreferrer" className="project-link"> */}
+                    <a href="https://powerful-beyond-95375.herokuapp.com/" target="_blank" rel="noreferrer" className="project-link">
                         <img src={marvelpediaP} alt="project-screenshot" className="project-photo" />
-                    {/* </a> */}
+                    </a>
                     <h3>Marvelpedia</h3>
                     <p>This is the app I created under the strict time limit during the intensive Salt Academy programme. I was tasked to create a React/Express app of my choice within 1 day. As a fan of superheroes and comics, I decided to create an easily accessible and searchable mini-encyclopedia with information about each of the Marvel characters.</p>
                     <div className="links">
-                        {/* <a href="www.google.com" target="_blank" rel="noreferrer" className="active">Try the app</a> */}
+                        <a href="https://powerful-beyond-95375.herokuapp.com/" target="_blank" rel="noreferrer" className="active">Try the app</a>
                         <a href="https://github.com/AndelijaKaluderovic/hackday-project" target="_blank" rel="noreferrer">See the code</a>
                     </div>
                 </div>
