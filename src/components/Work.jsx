@@ -3,6 +3,7 @@ import saltP from '../assets/projects/saltplatform.png';
 import marvelpediaP from '../assets/projects/marvelpedia.png';
 import todoappP from '../assets/projects/todoapp.png';
 import weatherP from '../assets/projects/weatherapp.png';
+import shoppingP from '../assets/projects/shoppingcart.png';
 import arrowU from '../assets/arrowUp.png'
 import arrowP from '../assets/arrowDown.png';
 
@@ -14,11 +15,22 @@ const Work = () => {
             >My projects</h2>
             <div className="wrapper">
                 <div className="project">
+                    <a href="https://quizzical-volhard-51d50f.netlify.app/" target="_blank" rel="noreferrer" className="project-link">
+                        <img src={shoppingP} alt="project-screenshot" className="project-photo" />
+                    </a>
+                    <h3>Shopping Cart</h3>
+                    <p>This is an E-commerce app that represents a minimal online shopping solution (result of a company code test assignment). As a user you will be able to browse the products, see the details for selected product, modify quantity and/or remove the item from the cart. There was a time limit (24 hours) for this project to be done, so it only includes the minimal functionalities without database and payment process.</p>
+                    <div className="links">
+                        <a href="https://quizzical-volhard-51d50f.netlify.app/" target="_blank" rel="noreferrer" className="active">Try the app</a>
+                        <a href="https://github.com/AndelijaKaluderovic/Shopping_Cart" target="_blank" rel="noreferrer">See the code</a>
+                    </div>
+                </div>
+                <div className="project">
                     <a href="https://salt-platform.vercel.app/index" target="_blank" rel="noreferrer" className="project-link">
                         <img src={saltP} alt="project-screenshot" className="project-photo" />
                     </a>
                     <h3>Salt Platform</h3>
-                    <p>Salt Platform is the result of a group final project in the Salt programme. Together with other team members, I created desktop platform, which contains hand-picked useful links that prospective students and current Salt students can use to prepare for bootcamp. It is also the central place for current students to find, save, and share educational materials, tutorials, labs, Github repositories, demos, and presentations.</p>
+                    <p>Salt Platform is the result of a group final project in the Salt programme. Together with other team members, I created desktop platform, which contains hand-picked useful links that Salt students can use to prepare for bootcamp. It is also the central place for current students to find, save, and share educational materials, tutorials, labs, Github repositories, demos, and presentations.</p>
                     <div className="links">
                         <a href="https://salt-platform.vercel.app/index" target="_blank" rel="noreferrer" className="active">Try desktop app</a>
                         <a href="https://github.com/AndelijaKaluderovic/salt-platform" target="_blank" rel="noreferrer">See the code</a>
