@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.09f9fe8e.css",
-    "main.js": "/portfolio/static/js/main.3b0feaf3.js",
+    "main.js": "/portfolio/static/js/main.b22b84b4.js",
     "static/media/todoapp.png": "/portfolio/static/media/todoapp.fe1b16230297e0cb35e2.png",
     "static/media/weatherapp.png": "/portfolio/static/media/weatherapp.f74a90bde6be3275ad50.png",
+    "static/media/expensify.png": "/portfolio/static/media/expensify.1a2d7041ea6f6ed896e2.png",
     "static/media/saltplatform.png": "/portfolio/static/media/saltplatform.4a72e48a8adab441c1fa.png",
     "static/media/marvelpedia.png": "/portfolio/static/media/marvelpedia.9eccd600997d72ff3f7c.png",
     "static/media/shoppingcart.png": "/portfolio/static/media/shoppingcart.e3532e3abd63de1a33c7.png",
@@ -31,10 +32,10 @@
     "static/media/about.svg": "/portfolio/static/media/about.efe421d3cbc41394da278a19c38daab3.svg",
     "index.html": "/portfolio/index.html",
     "main.09f9fe8e.css.map": "/portfolio/static/css/main.09f9fe8e.css.map",
-    "main.3b0feaf3.js.map": "/portfolio/static/js/main.3b0feaf3.js.map"
+    "main.b22b84b4.js.map": "/portfolio/static/js/main.b22b84b4.js.map"
   },
   "entrypoints": [
     "static/css/main.09f9fe8e.css",
-    "static/js/main.3b0feaf3.js"
+    "static/js/main.b22b84b4.js"
   ]
 }
