@@ -3,6 +3,7 @@ import saltP from '../assets/projects/saltplatform.png';
 import marvelpediaP from '../assets/projects/marvelpedia.png';
 import todoappP from '../assets/projects/todoapp.png';
 import weatherP from '../assets/projects/weatherapp.png';
+import expensifyP from '../assets/projects/expensify.png';
 import shoppingP from '../assets/projects/shoppingcart.png';
 import arrowU from '../assets/arrowUp.png'
 import arrowP from '../assets/arrowDown.png';
@@ -14,6 +15,17 @@ const Work = () => {
             <h2 className="heading"
             >My projects</h2>
             <div className="wrapper">
+                <div className="project">
+                    <a href="https://rocky-earth-21417.herokuapp.com/" target="_blank" rel="noreferrer" className="project-link">
+                        <img src={expensifyP} alt="project-screenshot" className="project-photo" />
+                    </a>
+                    <h3>Expensify App</h3>
+                    <p>Expensify App will help you to take control over your spending. After adding expenses, the user will be able to sort them by date or by amount, search by name, filter the existing expenses so you can see the expenses for a particular month or if the user doesn't have to track the expense anymore, can remove it. For better tracking, it is possible to enter a 'note' for expenses, while 'description' and 'amount' are required. The data is private since the user must log in with Google (Gmail) before creating an expenses list.</p>
+                    <div className="links">
+                        <a href="https://rocky-earth-21417.herokuapp.com/" target="_blank" rel="noreferrer" className="active">Try the app</a>
+                        <a href="https://github.com/AndelijaKaluderovic/ExpensifyApp" target="_blank" rel="noreferrer">See the code</a>
+                    </div>
+                </div>
                 <div className="project">
                     <a href="https://quizzical-volhard-51d50f.netlify.app/" target="_blank" rel="noreferrer" className="project-link">
                         <img src={shoppingP} alt="project-screenshot" className="project-photo" />
