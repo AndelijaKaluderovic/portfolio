@@ -1,9 +1,9 @@
 import './work.css'
 import saltP from '../assets/projects/saltplatform.png';
-import marvelpediaP from '../assets/projects/marvelpedia.png';
+// import marvelpediaP from '../assets/projects/marvelpedia.png';
 import todoappP from '../assets/projects/todoapp.png';
 import weatherP from '../assets/projects/weatherapp.png';
-import expensifyP from '../assets/projects/expensify.png';
+// import expensifyP from '../assets/projects/expensify.png';
 import shoppingP from '../assets/projects/shoppingcart.png';
 import arrowU from '../assets/arrowUp.png'
 import arrowP from '../assets/arrowDown.png';
@@ -13,9 +13,9 @@ const Work = () => {
         <div className="work" id="work">
             <a href="#about"><img src={arrowU} alt="arrowUp" className="arrowUp" /></a>
             <h2 className="heading"
-            >My projects</h2>
+            >Some of my projects</h2>
             <div className="wrapper">
-                <div className="project">
+                {/* <div className="project">
                     <a href="https://rocky-earth-21417.herokuapp.com/" target="_blank" rel="noreferrer" className="project-link">
                         <img src={expensifyP} alt="project-screenshot" className="project-photo" />
                     </a>
@@ -25,7 +25,7 @@ const Work = () => {
                         <a href="https://rocky-earth-21417.herokuapp.com/" target="_blank" rel="noreferrer" className="active">Try the app</a>
                         <a href="https://github.com/AndelijaKaluderovic/ExpensifyApp" target="_blank" rel="noreferrer">See the code</a>
                     </div>
-                </div>
+                </div> */}
                 <div className="project">
                     <a href="https://quizzical-volhard-51d50f.netlify.app/" target="_blank" rel="noreferrer" className="project-link">
                         <img src={shoppingP} alt="project-screenshot" className="project-photo" />
@@ -48,7 +48,7 @@ const Work = () => {
                         <a href="https://github.com/AndelijaKaluderovic/salt-platform" target="_blank" rel="noreferrer">See the code</a>
                     </div>
                 </div>
-                <div className="project">
+                {/* <div className="project">
                     <a href="https://powerful-beyond-95375.herokuapp.com/" target="_blank" rel="noreferrer" className="project-link">
                         <img src={marvelpediaP} alt="project-screenshot" className="project-photo" />
                     </a>
@@ -58,7 +58,7 @@ const Work = () => {
                         <a href="https://powerful-beyond-95375.herokuapp.com/" target="_blank" rel="noreferrer" className="active">Try the app</a>
                         <a href="https://github.com/AndelijaKaluderovic/hackday-project" target="_blank" rel="noreferrer">See the code</a>
                     </div>
-                </div>
+                </div> */}
                 <div className="project">
                     <a href="https://lucid-dubinsky-eb7b37.netlify.app/" target="_blank" rel="noreferrer" className="project-link">
                         <img src={todoappP} alt="project-screenshot" className="project-photo" />

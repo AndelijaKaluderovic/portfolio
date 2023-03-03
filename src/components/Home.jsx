@@ -26,7 +26,7 @@ const Home = () => {
                 <div className="wrapper">
                     <h2>Hi there, I'm</h2>
                     <h1>Angie</h1>
-                    <h3>Fullstack  <span ref={textRef}></span></h3>
+                    <h3>Passionate  <span ref={textRef}></span></h3>
                 </div>
             </div>
             <a href="#about"><img src={arrowP} alt="arrowDown" className="arrowDown" /></a>
