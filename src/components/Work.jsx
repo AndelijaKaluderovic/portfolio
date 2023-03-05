@@ -13,7 +13,7 @@ const Work = () => {
         <div className="work" id="work">
             <a href="#about"><img src={arrowU} alt="arrowUp" className="arrowUp" /></a>
             <h2 className="heading"
-            >Some of my projects</h2>
+            >My early projects</h2>
             <div className="wrapper">
                 {/* <div className="project">
                     <a href="https://rocky-earth-21417.herokuapp.com/" target="_blank" rel="noreferrer" className="project-link">
