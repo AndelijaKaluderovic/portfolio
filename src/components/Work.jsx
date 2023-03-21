@@ -5,13 +5,10 @@ import todoappP from '../assets/projects/todoapp.png';
 import weatherP from '../assets/projects/weatherapp.png';
 // import expensifyP from '../assets/projects/expensify.png';
 import shoppingP from '../assets/projects/shoppingcart.png';
-import arrowU from '../assets/arrowUp.png'
-import arrowP from '../assets/arrowDown.png';
 
 const Work = () => {
     return (
         <div className="work" id="work">
-            <a href="#about"><img src={arrowU} alt="arrowUp" className="arrowUp" /></a>
             <h2 className="heading"
             >My early projects</h2>
             <div className="wrapper">
@@ -41,7 +38,7 @@ const Work = () => {
                     <a href="https://salt-platform.vercel.app/index" target="_blank" rel="noreferrer" className="project-link">
                         <img src={saltP} alt="project-screenshot" className="project-photo" />
                     </a>
-                    <h3>Salt Platform</h3>
+                    <h3>Salt Desktop Platform</h3>
                     <p>Salt Platform is the result of a group final project in the Salt programme. Together with other team members, I created desktop platform, which contains hand-picked useful links that Salt students can use to prepare for bootcamp. It is also the central place for current students to find, save, and share educational materials, tutorials, labs, Github repositories, demos, and presentations.</p>
                     <div className="links">
                         <a href="https://salt-platform.vercel.app/index" target="_blank" rel="noreferrer" className="active">Try desktop app</a>
@@ -82,7 +79,6 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            <a href="#skills"><img src={arrowP} alt="arrowDown" className="arrowDown" /></a>
         </div>
     )
 }

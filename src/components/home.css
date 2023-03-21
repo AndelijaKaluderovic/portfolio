@@ -47,15 +47,6 @@ display: flex;
     bottom: 10px;
     left: 48.5%;
 }
-.home .arrowDown{
-    width: 40px;
-    animation: Blink 2s infinite;
-}
-@keyframes Blink {
-    100%{
-        opacity: 0.1;
-    }
-}
 .home span{
     font-size: inherit;
     color: #FBA92C;

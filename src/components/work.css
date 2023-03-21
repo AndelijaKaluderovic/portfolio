@@ -66,10 +66,6 @@
     width: 380px;
     height: 250px;
 }
-.work .arrowDown,
-.work .arrowUp{
-    width: 40px;
-}
 @media screen and (max-width: 930px) {
     .work .wrapper{
         grid-template-columns: 1fr;

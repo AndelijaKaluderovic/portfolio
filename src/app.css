@@ -5,18 +5,5 @@
 .app .sections{
     width: 100%;
     height: calc(100vh - 57px);
-    position: relative;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-    scrollbar-width: none;
-    /* firefox */
 }
-.app .sections::-webkit-scrollbar{
-    display: none;
-    /* chrome */
-}
-.app .sections > * {
-    width: 100vw;
-    height: calc(100vh - 57px);
-    scroll-snap-align: start;
-}
+

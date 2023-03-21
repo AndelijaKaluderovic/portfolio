@@ -36,15 +36,6 @@
     margin: 0 auto;
     padding-bottom: 20px;
 }
-.about .arrowDown,
-.about .arrowUp{
-    width: 40px;
-}
-@keyframes Blink {
-    100%{
-        opacity: 0.1;
-    }
-}
 @media screen and (max-width: 800px) {
     .about-wrapper{
         flex-direction: column;

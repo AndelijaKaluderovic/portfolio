@@ -27,12 +27,6 @@
   object-fit: cover;
   border-radius: 50%;
 }
-.skills .arrowDown,
-.skills .arrowUp{
-  display: block;
-  margin: 0 auto;
-  width: 40px;
-}
 @media screen and (max-width: 500px) {
   .skills-list{
     grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));

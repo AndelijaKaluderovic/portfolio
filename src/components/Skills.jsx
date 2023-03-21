@@ -14,15 +14,10 @@ import postgresqlP from '../assets/skills/postgresql.png';
 import reactP from '../assets/skills/react.png';
 import reduxP from '../assets/skills/redux.png';
 import tddP from '../assets/skills/tdd.png';
-import arrowU from '../assets/arrowUp.png'
-import arrowP from '../assets/arrowDown.png';
-
-
 
 const Skills = () => {
     return (
         <div className="skills" id="skills">
-            <a href="#work"><img src={arrowU} alt="arrowUp" className="arrowUp" /></a>     
             <div className="skills-wrapper">
                 <h2 className="heading">Key Skills</h2>
                 <ul className="skills-list">
@@ -133,7 +128,6 @@ const Skills = () => {
                         />
                     </li>
                 </ul></div>
-                <a href="#contact"><img src={arrowP} alt="arrowDown" className="arrowDown" /></a>     
         </div>
     )
 }
