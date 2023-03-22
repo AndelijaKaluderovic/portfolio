@@ -1,36 +1,34 @@
 .home{
-background-color: white;
-display: flex;
-}
-.home .left{
-    flex: 0.5;
-    overflow: hidden;
-}
-.home .right{
-    flex: 0.5;
-}
-.home .profile-image{
+    margin: 100px 0;
     display: flex;
-    justify-content: center; 
+    flex-direction: row;
     align-items: center;
-    background-image: linear-gradient(#FBA92C, #000000);
-    border-radius: 50%;
-    margin: 40px;
-}
-.home .profile-image img{
-   margin-top: 50px;
-   height: 100%;
-   width: 90%;
-}
-.home .wrapper{
-   height: 90%;
-   width: 90%;
-   padding-left: 50px; 
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
+    justify-content: center;
 }
 
+.home .left{
+    background: linear-gradient(0deg, rgb(15,17,17) 30%, rgba(251,169,44,1) 55%);
+    height: 450px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90% 10% 81% 19% / 30% 41% 59% 70%;
+}
+.home .profile-image img{
+    object-fit: cover;
+    height: 400px;
+    width: 330px;
+    border-radius: 100% 0% 81% 19% / 0% 41% 59% 100%;
+}
+.home span{
+    font-size: inherit;
+    color: #FBA92C;
+}
+.home .right{
+    width: 300px;
+    margin-left: 50px;
+}
 .home .wrapper h2{
     font-size: 35px;
 }
@@ -42,54 +40,23 @@ display: flex;
 .home .wrapper h3{
     font-size: 30px;
 }
-.home a{
-    position: absolute;
-    bottom: 10px;
-    left: 48.5%;
-}
 .home span{
     font-size: inherit;
     color: #FBA92C;
-} 
-@media screen and (max-width: 1025px){
-    .home a{
-        left: 48%;
-    }
 }
 @media screen and (max-width: 768px){
-    .home .profile-image{
-        margin-top: 150px;
+    .home{
+        margin: 20px 0;
+        flex-direction: column;
+    }
+    .home .left{
+        margin-bottom: 10px;
+        height: 370px;
+        width: 300px;
     }
     .home .profile-image img{
-        margin-top: 50px;
-        height: 80%;
-        width: 70%;
-     }
-    .home a{
-        left: 47.5%;
+        height: 340px;
+        width: 300px;
     }
-}
-@media screen and (max-width: 450px){
-    .home {
-        flex-direction: column;
-        justify-content: center;
-        
-    }
-    .home .wrapper{
-        /* border: 5px solid #141414; */
-        border-radius: 20px;
-        text-align: center;
-        padding-left: 0;
-        margin-left: 20px;
-    }
-    .home .profile-image{
-        margin-top: 30px;
-    }
-   
-    .home .wrapper h3{
-        font-size: 25px;
-    }
-    .home a{
-        left: 45%;
-    }
+
 }

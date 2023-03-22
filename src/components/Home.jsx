@@ -11,7 +11,7 @@ const Home = () => {
             backDelay: 1630,
             backSpeed: 35,
             showCursor: false,
-            strings: ["Developer", "Pianist", "Dog Owner"]
+            strings: ["Developer", "Pianist", "Dog Owner", "Dancer"]
         })
     }, [])
     return (
