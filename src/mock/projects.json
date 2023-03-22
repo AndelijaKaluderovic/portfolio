@@ -1,0 +1,44 @@
+[
+{
+    "id": "expensify",
+    "title": "Expensify App",
+    "description": "Expensify App will help you to take control over your spending. After adding expenses, the user will be able to sort them by date or by amount, search by name, filter the existing expenses so you can see the expenses for a particular month or if the user doesn't have to track the expense anymore, can remove it. For better tracking, it is possible to enter a 'note' for expenses, while 'description' and 'amount' are required. The data is private since the user must log in with Google (Gmail) before creating an expenses list.",
+    "link" : null,
+    "github": "https://github.com/AndelijaKaluderovic/ExpensifyApp"
+},
+{
+    "id": "shoppingcart",
+    "title": "Shopping Cart",
+    "description": "This is an E-commerce app that represents a minimal online shopping solution (result of a company code test assignment). As a user you will be able to browse the products, see the details for selected product, modify quantity and/or remove the item from the cart. There was a time limit (24 hours) for this project to be done, so it only includes the minimal functionalities without database and payment process.",
+    "link" : "https://quizzical-volhard-51d50f.netlify.app/",
+    "github": "https://github.com/AndelijaKaluderovic/Shopping_Cart"
+},
+{
+    "id": "saltplatform",
+    "title": "Salt Desktop Platform",
+    "description": "Salt Platform is the result of a group final project in the Salt programme. Together with other team members, I created desktop platform, which contains hand-picked useful links that Salt students can use to prepare for bootcamp. It is also the central place for current students to find, save, and share educational materials, tutorials, labs, Github repositories, demos, and presentations.",
+    "link" : "https://salt-platform.vercel.app/index",
+    "github": "https://github.com/AndelijaKaluderovic/salt-platform"
+},
+{
+    "id": "marvelpedia",
+    "title": "Marvelpedia",
+    "description": "This is the app I created under the strict time limit during the intensive Salt Academy programme. I was tasked to create a React/Express app of my choice within 1 day. As a fan of superheroes and comics, I decided to create an easily accessible and searchable mini-encyclopedia with information about each of the Marvel characters.",
+    "link" : null,
+    "github": "https://github.com/AndelijaKaluderovic/hackday-project"
+},
+{
+    "id": "todoapp",
+    "title": "Todo App",
+    "description": "The Todo App, or personal to-do list, is meant to serve as a planner for tasks. Users can easily add, edit, remove or hide the listed tasks. Each task is stored locally, eliminating the need to use databases. The application is coded in React, while state management is done with Redux.",
+    "link" : "https://lucid-dubinsky-eb7b37.netlify.app/",
+    "github": "https://github.com/AndelijaKaluderovic/todoReactRedux"
+},
+{
+    "id": "weatherapp",
+    "title": "Weather App",
+    "description": "The first application I have ever created using javascript. It is a real-time global weather app powered by Open Weather API services. The UI is kept simple, clean and easy to use. The app was created while participating in SheCodes workshops.",
+    "link" : "https://flamboyant-heisenberg-5beb54.netlify.app/",
+    "github": "https://github.com/AndelijaKaluderovic/WeatherApp"
+}   
+]

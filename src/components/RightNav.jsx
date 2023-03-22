@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Ul = styled.ul`
   list-style: none;
@@ -10,18 +10,18 @@ const Ul = styled.ul`
     padding: 0px 10px;
   }
   a {
-      text-decoration: none;
-      color: white;
+    text-decoration: none;
+    color: white;
   }
-  a:hover{
-    color: #FBA92C;
+  a:hover {
+    color: #fba92c;
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
     background-color: #141414;
     position: fixed;
     text-align: center;
-    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+    transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     z-index: 3;
     top: 0;
     right: 0;
@@ -37,16 +37,36 @@ const Ul = styled.ul`
 `;
 
 const RightNav = (props) => {
-    const {open, setOpen} = props;
-    return (
-        <Ul open={open}>
-            <li><a href="#home" onClick={()=> setOpen(!open)}>Home</a></li>
-            <li><a href="#about" onClick={()=> setOpen(!open)}>About</a></li>
-            <li><a href="#work" onClick={()=> setOpen(!open)}>Work</a></li>
-            <li><a href="#skills" onClick={()=> setOpen(!open)}>Skills</a></li>
-            <li><a href="#contact" onClick={()=> setOpen(!open)}>Contact</a></li>
-        </Ul>
-    )
-}
+  const { open, setOpen } = props;
+  return (
+    <Ul open={open}>
+      <li>
+        <a href="#home" onClick={() => setOpen(!open)}>
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="#about" onClick={() => setOpen(!open)}>
+          About
+        </a>
+      </li>
+      <li>
+        <a href="#work" onClick={() => setOpen(!open)}>
+          Work
+        </a>
+      </li>
+      <li>
+        <a href="#skills" onClick={() => setOpen(!open)}>
+          Skills
+        </a>
+      </li>
+      <li>
+        <a href="#contact" onClick={() => setOpen(!open)}>
+          Contact
+        </a>
+      </li>
+    </Ul>
+  );
+};
 
-export default RightNav
+export default RightNav;

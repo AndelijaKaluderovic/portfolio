@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import Burger from './Burger';
+import styled from "styled-components";
+import Burger from "./Burger";
 
 const Nav = styled.nav`
   width: 100%;
@@ -12,9 +12,9 @@ const Nav = styled.nav`
   .logo {
     padding-top: 3px;
     font-size: 40px;
-    color: #FBA92C;
+    color: #fba92c;
   }
-`
+`;
 
 const Navbar = () => {
   return (
@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="logo">AK</div>
       <Burger />
     </Nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
