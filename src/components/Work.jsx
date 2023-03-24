@@ -1,6 +1,6 @@
-import "./work.css";
 import projectsList from "../mock/projects.json";
 import githubIcon from "../assets/contact/github_transparent.png";
+import "./work.css";
 
 const Work = () => {
   const projects = projectsList;
